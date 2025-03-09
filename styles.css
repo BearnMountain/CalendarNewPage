@@ -1,0 +1,35 @@
+@import url("css/calendar.css");
+@import url("css/date.css");
+@import url("css/schedule.css");
+
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000000;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	background-color: #fff;
+	gap: 25px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-side, .right-side {
+	padding: 10px;
+	background-color: #e3f2fd;
+	border: 1px solid #90caf9;
+	border-radius: 5px;
+}
+
+.main-content {
+	display: flex;
+	gap: 20px;
+}
+

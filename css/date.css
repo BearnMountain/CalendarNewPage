@@ -1,0 +1,22 @@
+.timebar {
+	display: grid;
+	grid-template-areas: 
+		"time time"	
+		"date date";
+	gap: 10px; 
+	padding: 20px;
+}
+
+#current-time {
+	grid-area: time; 
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center; 
+}
+
+#current-date {
+	grid-area: date; 
+	font-size: 16px;
+	text-align: center; 
+}
+
